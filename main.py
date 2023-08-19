@@ -13,7 +13,7 @@ def save_user_data(users):
     with open("users.json", "w") as file:
         json.dump(users, file)
 
-# Function to register a new user
+# Function to register a new user.
 def register():
     username = input("Enter a username: ")
     password = input("Enter a password: ")
