@@ -59,5 +59,5 @@ def main():
         else:
             print("Invalid choice. Please try again.")
 
-# Call the main function to start the program
+# Call the main function to start the program.
 main()
