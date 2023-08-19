@@ -1,6 +1,6 @@
 import json
 
-# Function to load user data from a JSON file
+# Function to load user data from a JSON file.
 def load_user_data():
     try:
         with open("users.json", "r") as file:
