@@ -36,7 +36,7 @@ def login():
 
     if username in users and users[username] == password:
         print("Login successful!")
-        # Call your app's main function or perform additional actions
+        # Call your app's main function or perform additional actions.
     else:
         print("Invalid username or password. Please try again.")
 
