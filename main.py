@@ -8,7 +8,7 @@ def load_user_data():
     except FileNotFoundError:
         return {}
 
-# Function to save user data to a JSON file
+# Function to save user data to a JSON file.
 def save_user_data(users):
     with open("users.json", "w") as file:
         json.dump(users, file)
